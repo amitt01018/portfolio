@@ -90,7 +90,7 @@ export default function BlogPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
-              <Link href={`/blog/${post.slug}`}>
+              <Link href="#">
                 <Card className="overflow-hidden h-full flex flex-col hover:shadow-md transition-shadow">
                   {post.cover_image && (
                     <div className="aspect-video overflow-hidden">
